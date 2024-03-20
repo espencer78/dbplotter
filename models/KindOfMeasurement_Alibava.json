@@ -1,0 +1,218 @@
+[
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "seedqmpve",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "ann_time_h_21c",
+    "cmsY": "SEEDQ_MPV_E",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "SEEDQ_MPV_E",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (e-)",
+    "plottitle": "Seed MPV vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "seedqmpvadc",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "measured_fluence",
+    "cmsY": "SEEDQ_MPV_ADC",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "SEEDQ_MPV_ADC",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (ADC)",
+    "plottitle": "Seed MPV vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "seedqmede",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "ann_time_h_21c",
+    "cmsY": "SEEDQ_MED_E",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "SEEDQ_MED_E",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (e-)",
+    "plottitle": "Seed Median vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "seedqmpvadc",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "measured_fluence",
+    "cmsY": "SEEDQ_MED_ADC",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "SEEDQ_MED_ADC",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (ADC)",
+    "plottitle": "Seed Median vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "clustqmpve",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "ann_time_h_21c",
+    "cmsY": "CLUSTQ_MPV_E",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CLUSTQ_MPV_E",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (e-)",
+    "plottitle": "Cluster MPV vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "clustqmpvadc",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "measured_fluence",
+    "cmsY": "CLUSTQ_MPV_ADC",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CLUSTQ_MPV_ADC",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (ADC)",
+    "plottitle": "Cluster MPV vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "clustqmede",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "ann_time_h_21c",
+    "cmsY": "CLUSTQ_MED_E",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CLUSTQ_MED_E",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (e-)",
+    "plottitle": "Cluster Median vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "clustqmpvadc",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "e-",
+    "cmsX": "measured_fluence",
+    "cmsY": "CLUSTQ_MED_ADC",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CLUSTQ_MED_ADC",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "charge (ADC)",
+    "plottitle": "Cluster Median vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "noise",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "ADC",
+    "cmsX": "measured_fluence",
+    "cmsY": "NOISE_AVG",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "NOISE_AVG",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "noise (ADC)",
+    "plottitle": "Noise vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "gain",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "ADC",
+    "cmsX": "measured_fluence",
+    "cmsY": "GAIN_AVG",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "GAIN_AVG",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "Gain (e-/ADC)",
+    "plottitle": "Gain vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "cmnoise",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "ADC",
+    "cmsX": "measured_fluence",
+    "cmsY": "CMNOISE_AVG",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CMNOISE_AVG",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "avg cm noise (ADC)",
+    "plottitle": "Common Mode Noise vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+},
+{
+  "mtype": "alibava",
+  "fields": {
+    "name": "cmnoisestd",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "ADC",
+    "cmsX": "measured_fluence",
+    "cmsY": "CMNOISE_STD",
+    "ID": "15420",
+    "plotcolumnX": "ANN_TIME_H_21C",
+    "plotcolumnY": "CMNOISE_STD",
+    "plotlabelX": "Ann Time (Hours @ 21C)",
+    "plotlabelY": "cm noise std (ADC)",
+    "plottitle": "Common Mode Noise StDev vs Annealing Time",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1
+  }
+}
+]

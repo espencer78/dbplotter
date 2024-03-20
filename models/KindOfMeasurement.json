@@ -1,0 +1,154 @@
+[
+{
+  "mtype": "iv",
+  "fields": {
+    "name": "i600",
+    "cmsName": "Tracker Strip-Sensor IV Test",
+    "unit": "nA",
+    "cmsX": "volts",
+    "cmsY": "currntNamp",
+    "ID": "1700",
+    "plotcolumnX": "VOLTS",
+    "plotcolumnY": "CURRNT_NAMP",
+    "plotlabelX": "voltage (V)",
+    "plotlabelY": "current (nA)",
+    "plotlabelY_log": "current (A)",
+    "plottitle": "Sensor Leakage Current",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e-9
+  }
+},
+
+{
+  "mtype": "cv",
+  "fields": {
+    "name": "Vdep",
+    "cmsName": "Tracker Strip-Sensor CV Test",
+    "unit": "V",
+    "cmsX": "VOLTS",
+    "cmsY": "capctncPfrd",
+    "ID": "1720",
+    "plotcolumnX": "VOLTS",
+    "plotcolumnY": "CAPCTNC_PFRD",
+    "plotlabelX": "voltage (V)",
+    "plotlabelY": "1/C^2 (1/pF^2)",
+    "scalingfactor": 1e-12,
+    "plottitle": "Sensor Depletion Voltage"
+  }
+},
+{
+  "mtype": "i_leak",
+  "fields": {
+    "name": "IS",
+    "cmsName": "Tracker Strip-Sensor IS Test",
+    "unit": "nA",
+    "cmsX": "strip",
+    "cmsY": "currntNampr",
+    "ID": "3980",
+    "plotcolumnX": "STRIP",
+    "plotcolumnY": "CURRNT_NAMPR",
+    "plotlabelX": "strip",
+    "plotlabelY": "current (pA)",
+    "plotlabelY_log": "current (A)",
+    "plottitle": "Strip Leakage Current",
+    "scalingfactor": 1e3,
+    "scalingfactor_log": 1e-12
+  }
+},
+{
+  "mtype": "r_poly",
+  "fields": {
+    "name": "RS",
+    "cmsName": "Tracker Strip-Sensor RS Test",
+    "unit": "MOhm",
+    "cmsX": "strip",
+    "cmsY": "resstncMohm",
+    "ID": 4040,
+    "plotcolumnX": "STRIP",
+    "plotcolumnY": "RESSTNC_MOHM",
+    "plotlabelX": "strip",
+    "plotlabelY": "resistance (MΩ)",
+    "plotlabelY_log": "resistance (Ω)",
+    "plottitle": "Resistance Polysilicon Resistor",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e6
+  }
+},
+{
+  "mtype": "cc",
+  "fields": {
+    "name": "CS",
+    "cmsName": "Tracker Strip-Sensor CS Test",
+    "unit": "pF",
+    "cmsX": "strip",
+    "cmsY": "capctncPfrd",
+    "ID": "4000",
+    "plotcolumnX": "STRIP",
+    "plotcolumnY": "CAPCTNC_PFRD",
+    "plotlabelX": "strip",
+    "plotlabelY": "capacitance (pF)",
+    "plotlabelY_log": "capacitance (F)",
+    "plottitle": "Strip Coupling Capacitance",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e-12
+  }
+},
+{
+  "mtype": "pinhole",
+  "fields": {
+    "name": "PHS",
+    "cmsName": "Tracker Strip-Sensor PHS Test",
+    "unit": "nA",
+    "cmsX": "strip",
+    "cmsY": "currntphNamp",
+    "ID": "4080",
+    "plotcolumnX": "STRIP",
+    "plotcolumnY": "CURRNTPH_NAMP",
+    "plotlabelX": "strip",
+    "plotlabelY": "current (pA)",
+    "plotlabelY_log": "current (A)",
+    "plottitle": "Current Through Dielectric",
+    "scalingfactor": 1000,
+    "scalingfactor_log": 1e-9
+  }
+},
+{
+  "mtype": "c_int",
+  "fields": {
+    "name": "CIS",
+    "cmsName": "Tracker Strip-Sensor CIS Test",
+    "unit": "pF",
+    "cmsX": "stripcouple",
+    "cmsY": "capctncPfrd",
+    "ID": "4020",
+    "plotcolumnX": "STRIPCOUPLE",
+    "plotcolumnY": "CAPCTNC_PFRD",
+    "plotlabelX": "strip",
+    "plotlabelY": "capacitance (pF)",
+    "plotlabelY_log": "capacitance (F)",
+    "plottitle": "Interstrip Capacitance",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e-12
+  }
+},
+{
+  "mtype": "r_int",
+    "fields": {
+    "name": "RIS",
+    "cmsName": "Tracker Strip-Sensor RIS Test",
+    "unit": "GOhm",
+    "cmsX": "stripcouple",
+    "cmsY": "resstncGohm",
+    "ID": "4060",
+    "plotcolumnX": "STRIPCOUPLE",
+    "plotcolumnY": "RESSTNC_GOHM",
+    "plotlabelX": "strip",
+    "plotlabelY": "resistance (GΩ)",
+    "plotlabelY_log": "resistance (Ω)",
+    "plottitle": "Interstrip Resistance",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e9
+
+  }
+}
+]
