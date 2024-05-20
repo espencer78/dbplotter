@@ -5,10 +5,11 @@ optional arguments:
   -h, --help    show this help message and exit  
   -b            batch name  
   -s            sensor name  
-  -l            Plot labels, (b)atch No, (w)afer No, (d)ate, (D)ate + time, (s)ensor name, (t)ype[2S/PSS], (n)/p, (a)nn  
-  -m            (c)VIV, (s)QC, (i)T, (a)libava  
+  -g            Plot labels, (b)atch No, (w)afer No, (d)ate, (D)ate + time, (s)ensor name, (t)ype[2S/PSS], (n)/p, (a)nn  
+  -m            (c)VIV, (s)QC, (i)T, (a)libava, IT (d)iodes  
   -t            2S or PSS  
   -i            (p)reirrad, post(i)rrad, or post(a)nn  
+  -l            Location (e.g. Brown or KIT)
   -n            (n)eutron or (p)roton or (x)ray  
   -v            600, 800, all  
   -r            True to pull data from db, False to plot from saved csv  
@@ -16,17 +17,20 @@ optional arguments:
 
 Examples 1: Plot SQC batch
 
-"python querySQC.py -s 46805_003_2-S_MAIN0 -m s -l bwd":  
-This will plot SQC and VQC CVIV curves for the sensor 46805_003_2-S_MAIN0.  The legend will be of the form "46805_001_date"  
+"python querySQC.py -s 46805_003_2-S_MAIN0 -m s -g bwd -r True -p True":  
+This will plot SQC and VQC CVIV curves for the sensor 46805_003_2-S_MAIN0.  The legend will be of the form "46805_003_date"  
 
-"python querySQC.py -b 46805 -m c -l bwd":  
-This will plot SQC and VQC CVIV curves for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"  
+"python querySQC.py -b 46805 -m c -g bwd -r True -p True":  
+This will plot SQC and VQC CVIV curves for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_xxx_date"  
 
-"python querySQC.py -b 46805 -m s -l bwd":  
-This will plot SQC strip measurements for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"  
+"python querySQC.py -b 46805 -m s -g bwd -r True -p True":  
+This will plot SQC strip measurements for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_xxx_date"  
 
 
 Examples 2: Plot IT CVIV and Strip data
+
+"python querySQC.py -b 46805  -m c -g bwd -r True -p True":  
+This will plot SQC and VQC CVIV curves for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"
 
 
 Examples 3: Plot Alibava data
