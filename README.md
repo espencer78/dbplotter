@@ -18,11 +18,15 @@ Examples 1: Plot SQC batch
 
 "python querySQC.py -s 46805_003_2-S_MAIN0 -m s -l bwd":  
 This will plot SQC and VQC CVIV curves for the sensor 46805_003_2-S_MAIN0.  The legend will be of the form "46805_001_date"  
+
 "python querySQC.py -b 46805 -m c -l bwd":  
 This will plot SQC and VQC CVIV curves for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"  
+
 "python querySQC.py -b 46805 -m s -l bwd":  
 This will plot SQC strip measurements for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"  
-  
+
+
 Examples 2: Plot IT CVIV and Strip data
+
 
 Examples 3: Plot Alibava data
