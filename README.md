@@ -9,7 +9,7 @@ optional arguments:
   -m            (c)VIV, (s)QC, (i)T, (a)libava, IT (d)iodes  
   -t            2S or PSS  
   -i            (p)reirrad, post(i)rrad, or post(a)nn  
-  -l            Location (e.g. Brown or KIT)
+  -l            Location (e.g. "Brown" or "KIT")  
   -n            (n)eutron or (p)roton or (x)ray  
   -v            600, 800, all  
   -r            True to pull data from db, False to plot from saved csv  
@@ -32,11 +32,11 @@ Examples 2: Plot IT CVIV and Strip data
 "python querySQC.py -b 42256  -m i -g wa -r True -p True":  
 This will plot strip measurements for all sensors with IT strip measurements in batch 42256.  It will show pre-irrad, post-irrad, and post-ann (after Alibava) measurements. The legend will be of the form "001_annStatus"  
 
-"python querySQC.py -b 42000 43000 -m i -i i -g bw -r True -p True":  
-This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 and will plot only post-irrad measurements. The legend will be of the form "42256_xxx"  
+"python querySQC.py -b 42000 43000 -l Brown -m i -i i -g bw -r True -p True":  
+This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 tested at Brown and will plot only post-irrad measurements. The legend will be of the form "42256_xxx"  
 
-"python querySQC.py -b 35000 50000 -m i -i i -g tn -r True -p True":  
-This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 and will plot only post-irrad measurements. The measurements will be grouped (color coded) by [2S/PSS] and [n/p]. The legend will be of the form "[2S/PSS]_[n/p]"  
+"python querySQC.py -b 35000 50000 -l Brown -m i -i i -g tn -r True -p True":  
+This will plot strip measurements for all sensors with IT strip measurements in batches between 35000 and 50000 and will plot only post-irrad measurements. The measurements will be grouped (color coded) by [2S/PSS] and [n/p]. The legend will be of the form "[2S/PSS]_[n/p]"  
 
 Examples 3: Plot Alibava data
 
