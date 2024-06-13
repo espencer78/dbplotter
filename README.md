@@ -29,9 +29,11 @@ This will plot SQC strip measurements for all sensors with an SQC IV curve uploa
 
 Examples 2: Plot IT CVIV and Strip data
 
-"python querySQC.py -b 42256  -m i -g bwd -r True -p True":  
-This will plot strip measurements for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"
+"python querySQC.py -b 42256  -m i -g wa -r True -p True":  
+This will plot strip measurements for all sensors with IT strip measurements in batch 42256.  It will show pre-irrad, post-irrad, and post-ann (after Alibava) measurements. The legend will be of the form "001_annStatus"  
 
+"python querySQC.py -b 42000 43000 -m i -i i -g bw -r True -p True":  
+This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 and will plot only post-irrad measurements. The legend will be of the form "42256_xxx"  
 
 Examples 3: Plot Alibava data
 
