@@ -29,8 +29,8 @@ This will plot SQC strip measurements for all sensors with an SQC IV curve uploa
 
 Examples 2: Plot IT CVIV and Strip data
 
-"python querySQC.py -b 46805  -m c -g bwd -r True -p True":  
-This will plot SQC and VQC CVIV curves for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"
+"python querySQC.py -b 42256  -m i -g bwd -r True -p True":  
+This will plot strip measurements for all sensors with an SQC IV curve uploaded in batch 46805.  The legend will be of the form "46805_001_date"
 
 
 Examples 3: Plot Alibava data
