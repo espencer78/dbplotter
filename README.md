@@ -35,6 +35,9 @@ This will plot strip measurements for all sensors with IT strip measurements in 
 "python querySQC.py -b 42000 43000 -m i -i i -g bw -r True -p True":  
 This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 and will plot only post-irrad measurements. The legend will be of the form "42256_xxx"  
 
+"python querySQC.py -b 35000 50000 -m i -i i -g tn -r True -p True":  
+This will plot strip measurements for all sensors with IT strip measurements in batches between 42000 and 43000 and will plot only post-irrad measurements. The measurements will be grouped (color coded) by [2S/PSS] and [n/p]. The legend will be of the form "[2S/PSS]_[n/p]"  
+
 Examples 3: Plot Alibava data
 
 
