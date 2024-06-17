@@ -42,7 +42,8 @@ This will plot strip measurements for all sensors with IT strip measurements in 
 
 Examples 3: Plot Alibava data
 
-"python querySQC.py -b 35000 50000 -m a -g tn -r True -p True":  
+"python querySQC.py -b 35000 50000 -m a -g tnv -r True -p True":  
+This will plot Alibava data from batches 35000 to 50000 grouped by "[2S/PSS]_[n/p] [-600V/-800V]"
 
 
 Editing types of plots to be made
@@ -55,44 +56,4 @@ In the models directory are json files that determine which plots are to be made
 (a)libava: KindOfMeasurement_Alibava.json
 IT (d)iodes: KindOfMeasurement_IT_Diodes.json
 
-The format of these files is:
-[  
-{  
-  "mtype": "iv",  
-  "fields": {  
-    "name": "i600",  
-    "cmsName": "Tracker Strip-Sensor IV Test",  
-    "unit": "nA",  
-    "cmsX": "volts",  
-    "cmsY": "currntNamp",  
-    "ID": "1700",  
-    "plotcolumnX": "VOLTS",  
-    "plotcolumnY": "CURRNT_NAMP",  
-    "plotlabelX": "voltage (V)",  
-    "plotlabelY": "current (nA)",  
-    "plotlabelY_log": "current (A)",  
-    "plottitle": "Sensor Leakage Current",  
-    "scalingfactor": 1,  
-    "scalingfactor_log": 1e-9  
-  }  
-},  
-{  
-  "mtype": "cv",  
-  "fields": {  
-    "name": "Vdep",  
-    "cmsName": "Tracker Strip-Sensor CV Test",  
-    "unit": "V",  
-    "cmsX": "VOLTS",  
-    "cmsY": "capctncPfrd",  
-    "ID": "1720",  
-    "plotcolumnX": "VOLTS",  
-    "plotcolumnY": "CAPCTNC_PFRD",  
-    "plotlabelX": "voltage (V)",  
-    "plotlabelY": "1/C^2 (1/pF^2)",  
-    "scalingfactor": 1e-12,  
-    "plottitle": "Sensor Depletion Voltage"  
-  }  
-}  
-]  
-
-You can also do profile plots, plots where you plot 
+You can also do profile plots, plots where you specify the profileplotx (the variable from the DB you want to plot on the x-axis), and profileploty (here you can select if you want the "mean" or "median" of the data to be plotted.   
