@@ -52,7 +52,9 @@
     "plotlabelY_log": "current (A)",
     "plottitle": "Strip Leakage Current",
     "scalingfactor": 1e3,
-    "scalingfactor_log": 1e-12
+    "scalingfactor_log": 1e-12,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 },
 {
@@ -71,7 +73,9 @@
     "plotlabelY_log": "resistance (Ω)",
     "plottitle": "Resistance Polysilicon Resistor",
     "scalingfactor": 1,
-    "scalingfactor_log": 1e6
+    "scalingfactor_log": 1e6,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 },
 {
@@ -90,7 +94,9 @@
     "plotlabelY_log": "capacitance (F)",
     "plottitle": "Strip Coupling Capacitance",
     "scalingfactor": 1,
-    "scalingfactor_log": 1e-12
+    "scalingfactor_log": 1e-12,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 },
 {
@@ -109,7 +115,9 @@
     "plotlabelY_log": "current (A)",
     "plottitle": "Current Through Dielectric",
     "scalingfactor": 1000,
-    "scalingfactor_log": 1e-9
+    "scalingfactor_log": 1e-9,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 },
 {
@@ -128,7 +136,9 @@
     "plotlabelY_log": "capacitance (F)",
     "plottitle": "Interstrip Capacitance",
     "scalingfactor": 1,
-    "scalingfactor_log": 1e-12
+    "scalingfactor_log": 1e-12,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 },
 {
@@ -147,8 +157,9 @@
     "plotlabelY_log": "resistance (Ω)",
     "plottitle": "Interstrip Resistance",
     "scalingfactor": 1,
-    "scalingfactor_log": 1e9
-
+    "scalingfactor_log": 1e9,
+    "profileplotx": "BATCH_NUMBER",
+    "profileploty": "median"
   }
 }
 ]

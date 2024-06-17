@@ -1,0 +1,61 @@
+[
+{
+  "mtype": "iv",
+  "fields": {
+    "name": "i600",
+    "cmsName": "Irradiated Baby-Sensor IV Test",
+    "unit": "uA",
+    "cmsX": "volts",
+    "cmsY": "currntNamp",
+    "ID": "8780",
+    "plotcolumnX": "VOLTS",
+    "plotcolumnY": "CURRNT_NAMP",
+    "plotlabelX": "voltage (V)",
+    "plotlabelY": "current (uA)",
+    "plotlabelY_log": "current (A)",
+    "plottitle": "Sensor Leakage Current",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e-9,
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "@-600"
+  }
+},
+{
+  "mtype": "scaled_iv",
+  "fields": {
+    "name": "i600s",
+    "cmsName": "Irradiated Baby-Sensor IV Test Scaled",
+    "unit": "uA (Scaled to 20C)",
+    "cmsX": "volts",
+    "cmsY": "currntNamp",
+    "ID": "8780",
+    "plotcolumnX": "VOLTS",
+    "plotcolumnY": "CURRNT_NAMP",
+    "plotlabelX": "voltage (V)",
+    "plotlabelY": "current (uA)",
+    "plotlabelY_log": "current (A)",
+    "plottitle": "Sensor Leakage Current (Scaled to 20C)",
+    "scalingfactor": 1,
+    "scalingfactor_log": 1e-9,
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "@-600"
+  }
+},
+{
+  "mtype": "cv",
+  "fields": {
+    "name": "Vdep",
+    "cmsName": "Irradiated Baby-Sensor CV Test",
+    "unit": "V",
+    "cmsX": "VOLTS",
+    "cmsY": "capctncPfrd",
+    "ID": "8800",
+    "plotcolumnX": "VOLTS",
+    "plotcolumnY": "CAPCTNC_PFRD",
+    "plotlabelX": "voltage (V)",
+    "plotlabelY": "1/C^2 (1/pF^2)",
+    "scalingfactor": 1e-12,
+    "plottitle": "Sensor Depletion Voltage"
+  }
+}
+]

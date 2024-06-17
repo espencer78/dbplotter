@@ -53,7 +53,8 @@
     "plottitle": "Strip Leakage Current",
     "scalingfactor": 1,
     "scalingfactor_log": 1e-9,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 },
 {
@@ -73,7 +74,8 @@
     "plottitle": "Resistance Polysilicon Resistor",
     "scalingfactor": 1,
     "scalingfactor_log": 1e6,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 },
 {
@@ -93,7 +95,8 @@
     "plottitle": "Strip Coupling Capacitance",
     "scalingfactor": 1,
     "scalingfactor_log": 1e-12,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 },
 {
@@ -113,7 +116,8 @@
     "plottitle": "Current Through Dielectric",
     "scalingfactor": 1000,
     "scalingfactor_log": 1e-9,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 },
 {
@@ -133,7 +137,8 @@
     "plottitle": "Interstrip Capacitance",
     "scalingfactor": 1,
     "scalingfactor_log": 1e-12,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 },
 {
@@ -153,7 +158,8 @@
     "plottitle": "Interstrip Resistance",
     "scalingfactor": 1,
     "scalingfactor_log": 1e9,
-    "profileplot": "MEASURED_FLUENCE"
+    "profileplotx": "MEASURED_FLUENCE",
+    "profileploty": "median"
   }
 }
 ]
