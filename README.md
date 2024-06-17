@@ -5,7 +5,7 @@ optional arguments:
   -h, --help    show this help message and exit  
   -b            batch name  
   -s            sensor name  
-  -g            Plot labels, (b)atch No, (w)afer No, (d)ate, (D)ate + time, (s)ensor name, (t)ype[2S/PSS], (n)/p, (a)nn  
+  -g            Plot labels, (b)atch No, (w)afer No, (d)ate, (D)ate + time, (s)ensor name, (t)ype[2S/PSS], (n)/p, (a)nn, (r)un_type  
   -m            (c)VIV, (s)QC, (i)T, (a)libava, IT (d)iodes  
   -t            2S or PSS  
   -i            (p)reirrad, post(i)rrad, or post(a)nn  
@@ -14,6 +14,8 @@ optional arguments:
   -v            600, 800, all  
   -r            True to pull data from db, False to plot from saved csv  
   -p            Create plots from the sensor data?  
+
+The data pulled from the database are saved in .csv files in the data folder.  The plots made are saved in the plots folder.  For the aggregate data (i.e. strip current vs measured fluence) the plots and the csv of the data are saved in the plots folder.  Some examples are shown below:  
 
 Examples 1: Plot SQC batch
 
@@ -39,6 +41,8 @@ This will plot strip measurements for all sensors with IT strip measurements in 
 This will plot strip measurements for all sensors with IT strip measurements in batches between 35000 and 50000 and will plot only post-irrad measurements. The measurements will be grouped (color coded) by [2S/PSS] and [n/p]. The legend will be of the form "[2S/PSS]_[n/p]"  
 
 Examples 3: Plot Alibava data
+
+"python querySQC.py -b 35000 50000 -m a -g tn -r True -p True":  
 
 
 Editing types of plots to be made
